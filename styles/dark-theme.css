@@ -1,0 +1,100 @@
+.todo-body.dark-theme {
+    -webkit-box-shadow: 0 0px 28px #8566be, 0 0px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 0px 28px #8566be, 0 0px 10px rgba(0, 0, 0, 0.22);
+}
+
+.todo-body.dark-theme::before {
+    background-color: #000000;
+    opacity: 0.85;
+}
+
+.color-modes-toggle-track.dark-theme {
+    background-color: #ac9fc2;
+}
+
+.color-modes-toggle-track.dark-theme .color-modes-toggle-thumb .thumb {
+    left: 45%;
+}
+
+.color-modes-toggle-track.dark-theme .color-modes-toggle-thumb .thumb__sun {
+    opacity: 0;
+}
+
+.color-modes-toggle-track.dark-theme .color-modes-toggle-thumb .thumb__moon {
+    opacity: 1;
+}
+
+.title__text.dark-theme {
+    color: #8566be;
+}
+
+.filter-select.dark-theme .filter-select-current {
+    background-color: #443464;
+}
+
+.filter-select.dark-theme .filter-select-current::after,
+.filter-select.dark-theme .filter-select-current::before {
+    background-color: #6e40c9;
+}
+
+.filter-select.dark-theme .filter-select-body {
+    background-color: #8566be;
+}
+
+.filter-select.dark-theme .filter-select-body .filter-select-value:hover {
+    background-color: #6e40c9;
+}
+
+.task-input.dark-theme .task-input__input {
+    border: 2px solid #6e40c9;
+    color: #6e40c9;
+    background-color: #ac9fc2;
+}
+
+.task-input.dark-theme .task-input__label {
+    color: #8566be;
+}
+
+.task-input.dark-theme::after {
+    background-color: #8566be;
+}
+
+.task-input.dark-theme .task-input__button {
+    background-color: #8566be;
+}
+
+.task-input.dark-theme .task-input__button:hover {
+    background-color: #40c463;
+}
+
+.task-input.dark-theme .task-input__button:active {
+    background-color: #40c46380;
+}
+
+.list.dark-theme {
+    background-color: #ac9fc2;
+}
+
+.list.dark-theme .no-task {
+    color: #443464;
+}
+
+.list.dark-theme .item {
+    background-color: #251c35;
+}
+
+.list.dark-theme .item .item-body {
+    background-color: #443464;
+}
+
+.list.dark-theme .item .item-body .item-btn-task-status button {
+    background-color: #251c35;
+}
+
+.list.dark-theme .item.task-completed {
+    background-color: #251c3560;
+}
+
+.list.dark-theme .item.task-completed .item-body {
+    background-color: #44346460;
+}
