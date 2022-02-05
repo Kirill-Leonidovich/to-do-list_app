@@ -90,12 +90,12 @@ h6 {
 /* reset ///////////////////////////////////////////////////////////////////////////////////// */
 /* zeroing ----- */
 /* ----- zeroing */
-.todo-body.dark-theme {
+.notes-body.dark-theme {
   -webkit-box-shadow: 0 0px 28px #8566be, 0 0px 10px rgba(0, 0, 0, 0.22);
   box-shadow: 0 0px 28px #8566be, 0 0px 10px rgba(0, 0, 0, 0.22);
 }
 
-.todo-body.dark-theme::before {
+.notes-body.dark-theme::before {
   background-color: #000000;
   opacity: 0.85;
 }
@@ -192,7 +192,7 @@ h6 {
 }
 
 /* zeroing ----- */
-.todo-body {
+.notes-body {
   font-family: "Work Sans", sans-serif;
   width: 100vw;
   height: 100vh;
@@ -207,7 +207,7 @@ h6 {
   z-index: 1;
 }
 
-.todo-body::before {
+.notes-body::before {
   content: "";
   left: 0;
   top: 0;

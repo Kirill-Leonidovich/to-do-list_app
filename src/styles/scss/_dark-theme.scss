@@ -1,9 +1,9 @@
-.todo-body.dark-theme {
+.notes-body.dark-theme {
     -webkit-box-shadow: 0 0px 28px #8566be, 0 0px 10px rgba(0, 0, 0, 0.22);
     box-shadow: 0 0px 28px #8566be, 0 0px 10px rgba(0, 0, 0, 0.22);
 }
 
-.todo-body.dark-theme::before {
+.notes-body.dark-theme::before {
     background-color: #000000;
     opacity: 0.85;
 }

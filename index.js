@@ -137,7 +137,7 @@ function filterTask(currentFilter) {
 
 //dark-theme -----
 document.querySelector('.color-modes-toggle-track').addEventListener('click', () => {
-	let arrayDarkTheme = ['.todo-body', '.color-modes-toggle-track', '.title__text', '.filter-select', '.task-input', '.list']
+	let arrayDarkTheme = ['.notes-body', '.color-modes-toggle-track', '.title__text', '.filter-select', '.task-input', '.list']
 	arrayDarkTheme.forEach(elementDarkTheme => {
 		addDarkTheme(elementDarkTheme)
 	})
