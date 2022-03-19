@@ -1,18 +1,16 @@
 'use strict'
-// setCounterTask -----
 let counterTask = 0
 const noTask = `<div class="no-task"><p class="no-task__text">No task</p></div>`
-// add task -----
+
 let itemId = 1
 const list = document.querySelector('.list')
 const taskInputTextarea = document.querySelector('.task-input__input')
 const taskInputButton = document.querySelector('.task-input__button')
-// filter select -----
+
 const filterSelectCurrent = document.querySelector('.filter-select-current')
 const filterSelectBody = document.querySelector('.filter-select-body')
 const filterSelectValueArray = document.querySelectorAll('.filter-select-value')
 
-// setCounterTask -----
 setCounterTask()
 function setCounterTask() {
 	if (counterTask === 0) {
@@ -23,7 +21,6 @@ function setCounterTask() {
 	}
 }
 
-// add task -----
 taskInputTextarea.addEventListener('keydown', event => {
 	if (event.code == 'Enter') {
 		addNewTask()
@@ -79,7 +76,6 @@ function addNewTask() {
 	taskInputTextarea.value = null
 }
 
-//item-btn-task-status -----
 list.addEventListener('click', event => {
 	if (event.target.className === 'item-btn-task-status__completed') {
 		event.target.closest('.item').classList.add('task-completed')
@@ -97,7 +93,6 @@ list.addEventListener('click', event => {
 	}
 })
 
-// filter select -----
 filterSelectCurrent.addEventListener('click', () => {
 	;(filterSelectCurrent && filterSelectBody).classList.toggle('active-select')
 
@@ -135,7 +130,6 @@ function filterTask(currentFilter) {
 	}
 }
 
-//dark-theme -----
 document.querySelector('.color-modes-toggle-track').addEventListener('click', () => {
 	let arrayDarkTheme = ['.notes-body', '.color-modes-toggle-track', '.title__text', '.filter-select', '.task-input', '.list']
 	arrayDarkTheme.forEach(elementDarkTheme => {
